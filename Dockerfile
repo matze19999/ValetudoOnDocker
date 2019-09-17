@@ -8,7 +8,7 @@ LABEL release-date="2019-09-11"
 
 # Aktualisiere und installiere Pakete
 RUN apt update
-RUN apt install sudo git bash python3 nano vim openssh-client curl wget ccrypt sed dos2unix tree python3-pip python3-venv --no-install-recommends -y
+RUN apt install sudo git bash python3 nano vim openssh-client curl wget ccrypt sed dos2unix tree python3-pip python3-venv apt-utils --no-install-recommends -y
 RUN apt-get clean
 
 RUN echo $'clear\n\
