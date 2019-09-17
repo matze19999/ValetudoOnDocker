@@ -2,9 +2,15 @@
 
 FROM debian:stretch-slim
 
+# Geschrieben von
+# Matthias Pröll <proell.matthias@gmail.com>
+# Staudigl-Druck GmbH & Co. KG
+# Letzte Anpassung: 2019/09/17
+
 # Labels
+LABEL vendor="Staudigl-Druck GmbH & Co. KG"
 LABEL maintainer="Matthias Pröll (proell.matthias@gmail.com)"
-LABEL release-date="2019-09-11"
+LABEL release-date="2019-09-17"
 
 # Aktualisiere und installiere Pakete
 RUN apt update
