@@ -3,7 +3,7 @@
 This Dockerfiles help to build valetudo for your Xiaomi Vacuum Roboter Gen1 & Gen2
 
 ## Base Image
-debian <stretch-slim>
+debian Tag: stretch-slim
 
 ## Architecture
 amd32 / amd64
